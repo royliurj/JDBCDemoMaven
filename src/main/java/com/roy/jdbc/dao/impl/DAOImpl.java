@@ -13,6 +13,7 @@ import java.util.List;
 public class DAOImpl<T> implements DAO<T> {
 
     String abc = "";
+    String ddd = "";
 
     QueryRunner qr = null;
     Class<T> type = null;
